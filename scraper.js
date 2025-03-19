@@ -92,12 +92,14 @@ const scrape = async (topic, url) => {
             const msg = `${newItems.length} new items:\n${newItemsJoined}`
             await telenode.sendTextMessage(msg, chatId);
         } else {
+            await telenode.sendTextMessage("No new items were added", chatId);
         }
     } catch (e) {
         let errMsg = e?.message || "";
         if (errMsg) {
             errMsg = `Error: ${errMsg}`
         }
+        await telenode.sendTextMessage(`Scan workflow failed... 😥\n${errMsg}`, chatId)
         throw new Error(e)
     }
 }
