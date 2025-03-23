@@ -91,8 +91,6 @@ const scrape = async (topic, url) => {
             const newItemsJoined = newItems.join("\n----------\n");
             const msg = `${newItems.length} new items:\n${newItemsJoined}`
             await telenode.sendTextMessage(msg, chatId);
-        } else {
-            await telenode.sendTextMessage("No new items were added", chatId);
         }
     } catch (e) {
         let errMsg = e?.message || "";
