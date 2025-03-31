@@ -15,8 +15,12 @@
       "url": "https://market.yad2.co.il/search?q=%22r8%22&min_price=50&max_price=2500&filters=[[%22Type%22,%22%D7%9E%D7%A6%D7%9C%D7%9E%D7%95%D7%AA%22]]"
     },
     {
-      "topic": "Camera R8",
+      "topic": "Camera Sony a",
       "url": "https://market.yad2.co.il/search?q=a6&min_price=50&max_price=2500&filters=[[%22Type%22,%22%D7%9E%D7%A6%D7%9C%D7%9E%D7%95%D7%AA%22]]"
+    },
+    {
+      "topic": "Dell 4k",
+      "url": "https://market.yad2.co.il/search?q=dell+4k&min_price=900&max_price=1500&filters=[[%22Type%22,%22%D7%A6%D7%92%D7%99+%D7%9E%D7%97%D7%A9%D7%91%22]]"
     }
   ]
 }
