@@ -93,12 +93,6 @@ const scrape = async (topic, url) => {
             await telenode.sendTextMessage(msg, chatId);
         }
     } catch (e) {
-        let errMsg = e?.message || "";
-        if (errMsg) {
-            errMsg = `Error: ${errMsg}`
-        }
-        await telenode.sendTextMessage(`Scan workflow failed... 😥\n${errMsg}`, chatId)
-        throw new Error(e)
     }
 }
 
