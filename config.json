@@ -9,6 +9,14 @@
     {
       "topic": "Camera R7",
       "url": "https://market.yad2.co.il/search?q=%22r7%22&min_price=50&max_price=2500&filters=[[%22Type%22,%22%D7%9E%D7%A6%D7%9C%D7%9E%D7%95%D7%AA%22]]"
+    },
+    {
+      "topic": "Camera R8",
+      "url": "https://market.yad2.co.il/search?q=%22r8%22&min_price=50&max_price=2500&filters=[[%22Type%22,%22%D7%9E%D7%A6%D7%9C%D7%9E%D7%95%D7%AA%22]]"
+    },
+    {
+      "topic": "Camera R8",
+      "url": "https://market.yad2.co.il/search?q=a6&min_price=50&max_price=2500&filters=[[%22Type%22,%22%D7%9E%D7%A6%D7%9C%D7%9E%D7%95%D7%AA%22]]"
     }
   ]
 }
